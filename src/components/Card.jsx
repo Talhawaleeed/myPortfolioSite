@@ -2,7 +2,13 @@ import React from "react";
 
 function Card({content , image}) {
   return (
-    <div>
+    <a
+      href={link} 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="block"
+    >
+      
       <div className="card1 relative w-80 h-80 bg-zinc-900 lg:w-[28rem] lg:h-[25rem] ">
         {image}
      
@@ -15,7 +21,7 @@ function Card({content , image}) {
           </div>
         </div>
       </div>
-    </div>
+    </a>
   );
 }
 
