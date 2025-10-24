@@ -1,5 +1,5 @@
-import React from 'react';
-import Card from '../components/Card';
+import React from "react";
+import Card from "../components/Card";
 
 function Projects() {
   return (
@@ -25,6 +25,7 @@ function Projects() {
             image={<img src="/images/1.jpg" alt="" />}
             link="https://github.com/Talhawaleeed/final-year-project"
           />
+
           <Card
             content={"// 3d room planner"}
             image={<img src="/images/2.jpg" alt="" />}
