@@ -49,9 +49,9 @@ function HeroLogo() {
 
       <div className="flex items-center justify-center">
         <div className="intro flex flex-col gap-3 justify-center items-center">
-          <p className=" text-gray-400 text-xs tracking-tight md:text-base font-mono text-center max-w-lg px-4 md:w-2xl whitespace-pre-line">
+          <p className=" text-gray-400 text-xs tracking-tight md:tracking-normal md:text-base font-mono text-center max-w-lg px-4 md:w-2xl whitespace-pre-line">
             {
-              "{ I’m Talha — a MERN stack developer with a different perspective }"
+              "{ I’m Talha — a MERN stack developer with different perspective }"
             }
           </p>
           <div className="center flex justify-center">

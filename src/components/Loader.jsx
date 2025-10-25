@@ -55,12 +55,12 @@ if (!isVisible) return null;
 
         <div
           id="loader"
-          className="absolute inset-0 bg-black text-white flex items-center justify-center"
+          className="absolute inset-0 bg-zinc-950 text-white flex items-center justify-center"
         >
           <div id="topheading" className="absolute top-5 left-1/2 -translate-x-1/2 text-center uppercase tracking-tight">
-            <h5>
-              talha waleed <br /> portfolio
-            </h5>
+          <p className="text-gray-400 text-sm md:text-base font-mono max-w-lg whitespace-pre-line">
+            {"{ Talha waleed }"}
+          </p>
           </div>
 
           <div id="heroLogo" className="flex items-center justify-center">
@@ -68,7 +68,7 @@ if (!isVisible) return null;
           </div>
         </div>
 
-        <div id="red" className="absolute top-full left-0 w-full h-0 bg-red-700"></div>
+        <div id="red" className="absolute top-full left-0 w-full h-0 bg-zinc-900"></div>
       </div>
     </>
   );
