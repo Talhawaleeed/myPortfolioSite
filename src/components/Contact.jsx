@@ -6,7 +6,7 @@ function Contact() {
 
       <div className="container absolute w-1/2 h-1/2 flex flex-col justify-center items-center gap-8">
             <div className="heading mb-10 text-center">
-        <p className=" text-gray-400 text-sm md:text-base italic text-center max-w-lg px-4 whitespace-pre-line">
+        <p className=" text-gray-400 text-sm md:text-base font-mono text-center max-w-lg px-4 whitespace-pre-line">
           {"{ Contact }"}
         </p>
       </div>
@@ -23,7 +23,7 @@ function Contact() {
             id="name"
             required
             autoCapitalize="off"
-            className="text-white bg-zinc-800 h-8 text-sm italic border border-zinc-700 focus:outline-none focus:border-zinc-600  placeholder-zinc-400"
+            className="text-white bg-zinc-800 h-8 text-sm font-mono border border-zinc-700 focus:outline-none focus:border-zinc-600  placeholder-zinc-400"
           />
 
           <input
@@ -33,7 +33,7 @@ function Contact() {
             required
             id="email"
             autoCapitalize="off"
-            className="text-white bg-zinc-800 h-8 text-sm italic border border-zinc-700 focus:outline-none focus:border-zinc-600  placeholder-zinc-400"
+            className="text-white bg-zinc-800 h-8 text-sm font-mono border border-zinc-700 focus:outline-none focus:border-zinc-600  placeholder-zinc-400"
           />
 
           <input
@@ -43,7 +43,7 @@ function Contact() {
             id="subject"
             required
             autoCapitalize="off"
-            className="text-white bg-zinc-800 h-8 text-sm italic border border-zinc-700 focus:outline-none focus:border-zinc-600  placeholder-zinc-400"
+            className="text-white bg-zinc-800 h-8 text-sm font-mono border border-zinc-700 focus:outline-none focus:border-zinc-600  placeholder-zinc-400"
           />
 
           <textarea
@@ -54,12 +54,12 @@ function Contact() {
             required
             autoCapitalize="off"
             resize-none
-            className="text-white bg-zinc-800 h-8 text-sm italic border border-zinc-700 focus:outline-none focus:border-zinc-600  placeholder-zinc-400"
+            className="text-white bg-zinc-800 h-8 text-sm font-mono border border-zinc-700 focus:outline-none focus:border-zinc-600  placeholder-zinc-400"
           />
 
           <button
             type="submit"
-            className="text-white bg-zinc-950 h-8 text-sm italic border border-zinc-700 focus:outline-none focus:border-zinc-600  placeholder-zinc-400"
+            className="text-white bg-zinc-950 h-8 text-sm font-mono border border-zinc-700 focus:outline-none focus:border-zinc-600  placeholder-zinc-400"
           >
             Send Message
           </button>

@@ -239,10 +239,10 @@ function SkillsCube() {
   return (
     <div
       id="skills"
-      className="w-full h-[78%] lg:h-[90%] realtive flex flex-col justify-center items-center bg-zinc-950 text-white lg:gap-8 gap-3"
+      className="w-full h-[78%] lg:h-[90%] realtive flex flex-col justify-center items-center bg-zinc-950 text-white lg:gap-8 gap-2"
     >
       <div className="heading text-center justify-center">
-        <h2 className="text-gray-400 text-sm md:text-base italic">
+        <h2 className="text-gray-400 text-sm md:text-base font-mono">
           {"{ my skills }"}
         </h2>
       </div>
@@ -272,7 +272,7 @@ function SkillsCube() {
               {skills[activeFace].description}
             </p>
 
-            <p className="text-gray-600 text-xs italic mt-3">
+            <p className="text-gray-600 text-xs font-mono mt-3">
               ← Drag or touch the cube to explore different skills
             </p>
           </div>

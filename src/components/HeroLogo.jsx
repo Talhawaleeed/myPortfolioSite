@@ -48,8 +48,8 @@ function HeroLogo() {
       </svg>
 
       <div className="flex items-center justify-center">
-        <div className="intro">
-          <p className=" text-gray-400 text-sm md:text-base italic text-center max-w-lg px-4 whitespace-pre-line">
+        <div className="intro flex flex-col gap-3 justify-center items-center">
+          <p className=" text-gray-400 text-xs tracking-tight md:text-base font-mono text-center max-w-lg px-4 md:w-2xl whitespace-pre-line">
             {
               "{ I’m Talha — a MERN stack developer with a different perspective }"
             }

@@ -10,7 +10,7 @@ function Buttons() {
       <div className="flex gap-4 mt-14">
         <a
           href="#contact"
-          className="inline-block px-8 py-2 text-gray-400 hover:text-white  transition-all duration-300"
+          className="inline-block px-8 py-2 text-gray-400 hover:text-white  transition-all duration-300  text-sm md:text-base"
         >
           {"{ Let’s Collaborate }"}
         </a>
@@ -18,7 +18,7 @@ function Buttons() {
         <a
           href="/Talha-Waleed-CV.pdf"
           download
-          className="inline-block px-8 py-2 text-gray-400 hover:text-white  transition-all duration-300"
+          className="inline-block px-8 py-2 text-gray-400 hover:text-white  transition-all duration-300 text-sm md:text-base"
         >
           {"{ Download CV }"}
         </a>
@@ -30,37 +30,3 @@ function Buttons() {
 
 export default Buttons
 
-
-
-
-
-
-
-
-
-
-
-// import React from "react";
-
-// function Buttons() {
-//   return (
-//     <div className=" flex flex-col sm:flex-row gap-4 mt-6 sm:mt-8 justify-center items-center">
-//       <a
-//         href="#contact"
-//         className="inline-block px-8 py-2 text-gray-400 hover:text-white transition-all duration-300 text-sm sm:text-base"
-//       >
-//         {"{ Let’s Collaborate }"}
-//       </a>
-
-//       <a
-//         href="/Talha-Waleed-CV.pdf"
-//         download
-//         className="inline-block px-8 py-2 text-gray-400 hover:text-white transition-all duration-300 text-sm sm:text-base"
-//       >
-//         {"{ Download CV }"}
-//       </a>
-//     </div>
-//   );
-// }
-
-// export default Buttons;

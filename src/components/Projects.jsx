@@ -11,7 +11,7 @@ function Projects() {
                        py-16 px-4 sm:px-6 gap-8"
       >
         <div className="heading text-center mb-20">
-          <p className="text-gray-400 text-sm md:text-base italic max-w-lg whitespace-pre-line">
+          <p className="text-gray-400 text-sm md:text-base font-mono max-w-lg whitespace-pre-line">
             {"{ my projects }"}
           </p>
         </div>
