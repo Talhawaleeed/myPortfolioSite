@@ -5,6 +5,7 @@ import Loader from "./components/Loader";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import SkillsCube from "./components/SkillsCube";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Loader />
       <Hero />
       <Projects/>
+      <SkillsCube/>
       <Contact/>
     </div>
     </>

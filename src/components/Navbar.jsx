@@ -12,6 +12,9 @@ function Navbar() {
         <a href="#projects" className="hover:text-zinc-400 transition-colors">
           Projects
         </a>
+        <a href="#skills" className="hover:text-zinc-400 transition-colors">
+          Skills
+        </a>
         <a href="#contact" className="hover:text-zinc-400 transition-colors">
           Contact
         </a>
