@@ -16,7 +16,7 @@ function Buttons() {
         </a>
 
         <a
-          href="/Talha-Waleed-CV.pdf"
+          href="/Talha's Resume.pdf"
           download
           className="inline-block px-8 py-2 text-gray-400 hover:text-white  transition-all duration-300 text-sm md:text-base"
         >
